@@ -1,0 +1,12 @@
+*{
+    margin: 0; padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color:aliceblue;
+}
+
+body{
+    width:100vw; height: 100vh;
+    background-image: linear-gradient(95deg, #3c0196, #a38fc2,#720469);
+}
+
