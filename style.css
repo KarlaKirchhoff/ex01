@@ -1,3 +1,10 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Itim&display=swap');
+
+/*font-family: 'Berkshire Swash', cursive;
+font-family: 'Itim', cursive;*/
+
 *{
     margin: 0; padding:0;
     text-decoration: none;
@@ -9,4 +16,74 @@ body{
     width:100vw; height: 100vh;
     background-image: linear-gradient(95deg, #3c0196, #a38fc2,#720469);
 }
+
+.titulo-subtitulo h1{
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.titulo-subtitulo h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+}
+
+figure#img-fubica{
+    position: relative;
+    display: inline-block;
+    border: 8px solid rgba(236, 223, 223, 0.192);
+    border-radius: 4px;
+    box-shadow: 1px 1px 15px rgb(102, 0, 97,.4);
+}
+
+picture#img-fubica img{
+    width:100%; height: 100%;
+}
+
+figcaption#legenda-fubica{
+    opacity: 0;
+    width: 100%; height: 100%;
+    position:absolute; top:0;
+    background-color: rgba(5, 0, 5, 0.6);
+}
+
+figcaption#legenda-fubica p{
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 45%; left: 20%;
+    text-align: center;
+}
+
+    figcaption#legenda-fubica:hover{
+        opacity: 1;
+        transition: 0.8s;
+    }
+
+    figcaption#legenda-fubica p a:hover{
+        text-decoration: underline;
+        color: aquamarine;
+        transition: color 0.5s;
+    }
+
+button#primeira-pg{
+    border: 1px solid rgb(255, 255, 255, 0.363);
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255, 0.363);
+    font-size: 30px;
+    font-family: 'Itim', sans-serif;
+    padding: 10px 15px;
+    color: #3c0196;
+}
+
+    button#primeira-pg:hover{
+        background-color: rgba(0, 0, 0, 0.603);
+        color: rgb(240, 220, 240);
+        transition: 0.5s;
+    }
 
